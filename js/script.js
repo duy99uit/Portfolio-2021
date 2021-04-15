@@ -28,7 +28,7 @@ filterBtnContainer.addEventListener("click", (e)=>{
         e.target.classList.add("active");
         document.querySelector(".filter-status").classList.add("active");
         document.querySelector(".filter-status p").innerHTML =`filtering <span>${e.target.innerHTML}</span> work`
-        toggleBodyScrolling();
+        // toggleBodyScrolling();
         setTimeout(()=>{
             filterItems(e.target);
         },250)
